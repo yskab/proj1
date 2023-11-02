@@ -1,5 +1,5 @@
 FROM devopsedu/webapp
-RUN echo "hello world" > testfile
 RUN apt update -y
-RUN apt install apache2 -y
-#COPY samplefile /tmp
+COPY website /
+CMD ["php", "-S", "0.0.0.0:8000", "./index.php" ]
+EXPOSE 8000
