@@ -1,8 +1,7 @@
 
 
 
-HAHAHA
-
+die
 
 # Simple PHP Website
 
